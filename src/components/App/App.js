@@ -13,8 +13,7 @@ function App() {
         // your JSX code goes here
         <main className='App'>
             <h1>IdeaBox</h1>
-            <p>hi!</p>
-            <Ideas name='Travis' />
+            <Ideas ideas={ideas} />
         </main>
     )
 }
